@@ -20,9 +20,22 @@ const numMatch = document.getElementById("numMatch");
 const submitBtn = document.getElementById("submitBtn");
 const guessCount = document.getElementById("guessCount");
 const counter = document.getElementById("counter");
+const myRange = document.getElementById("myRange");
+const output = document.getElementById("output");
 
 const max = 100;
-const min = 1
+const min = 1;
+
+output.innerHTML = '5';
+
+console.log(output.textContent = myRange.value);
+
+myRange.oninput = function(){
+    output.innerHTML = this.value;
+}
+
+
+
 
 let Num = Math.floor(Math.random() * (max-min) + min);
 secretNum.textContent = Num //we are changing the text content of secret Num Div to hold our num
@@ -60,6 +73,11 @@ submitBtn.addEventListener("click", function (){
 
 });
 
+
+
+
+
 //to store the count, can I collect the number of times the button was clicked?
+//next steps, I need to connect the min and max range choosen to connect to my functions
 
 
