@@ -31,11 +31,11 @@ submitBtn.addEventListener("click", function (){
         numMatch.style.display = "block";
     }
     else if(Num > guesses.value){
-        guessClue.textContent = "Your Guess is too low";
+        guessClue.textContent = "Your Guess is too low!";
         wrongGuess.push(guesses.value);
     }
     else if(Num < guesses.value){
-        guessClue.textContent = "Your Guess is too high";
+        guessClue.textContent = "Your Guess is too high!";
         wrongGuess.push(guesses.value);
     }
 
@@ -51,7 +51,8 @@ submitBtn.addEventListener("click", function (){
 
 
 //The section below holds the code for my range slider, I will implement this 
-//in a future iteration, the secret number is generating before the range is set. 
+//in a future iteration, the secret number is generating before the range is set.
+//add animation for guessing the correct number 
 
 /*const myRange = document.getElementById("myRange");
 const min = myRange.min;
