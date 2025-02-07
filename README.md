@@ -1,9 +1,6 @@
 # Guess a Number Game! 
 Welcome! In this game, you guess a number to match with the secret number. This project highlights the skills of HTML and JavaScript. Especially, manipulating the DOM to return different responses based on the user's interaction with the game. 
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
 
 ## Installation 
 1. Clone the repository 
