@@ -11,9 +11,9 @@ let max = 100;
 let min = 1;
 
 let Num = Math.floor(Math.random() * (max-min) + min);
-secretNum.textContent = Num 
+secretNum.textContent = Num;
 numMatch.style.display = "none";
-secretNum.style.display = "none"
+secretNum.style.display = "none";
 
 let count = 0;
 let wrongGuess = [];
@@ -30,17 +30,13 @@ submitBtn.addEventListener("click", function (){
         console.log("match found");
         numMatch.style.display = "block";
     }
-    else if(Num > guesses.value){
+    if(Num > guesses.value){
         guessClue.textContent = "Your Guess is too low!";
         wrongGuess.push(guesses.value);
     }
-    else if(Num < guesses.value){
+    if(Num < guesses.value){
         guessClue.textContent = "Your Guess is too high!";
         wrongGuess.push(guesses.value);
-    }
-
-    else{
-        numMatch.style.display = "none";
     }
 
     guessCount.textContent = Array.from(wrongGuess);
