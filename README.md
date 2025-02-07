@@ -19,5 +19,9 @@ If the game is not displaying in preview, please take the following steps.
 This game was built in Visual Studio Code
 
 
-https://github.com/user-attachments/assets/246c465e-4f68-4fb2-bdff-a00cddf076f1
+
+
+
+
+https://github.com/user-attachments/assets/7f7f7b46-099e-41b9-b123-3af237f3a4c4
 
