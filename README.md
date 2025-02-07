@@ -1,28 +1,23 @@
-# Welcome to my Game Project
-This project highlights the kills of HTML and JS. Espically manipulating the DOM to return different reponses based on the user's interaction with the game. 
+# Guess a Number Game! 
+Welcome! In this game, you guess a number to match with the secret number. This project highlights the skills of HTML and JavaScript. Especially, manipulating the DOM to return different responses based on the user's interaction with the game. 
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation 
 1. Clone the repository 
+2. cd into the repository JS-HTML-Game
+3. Right-click the file game.html and click "Open Preview" 
 
-2. Install dependencies: Steps for Installing and Enabling Live Server on VS Code
--Step 1: Open Extensions Panel
--Step 2: Search for Live Server
--Step 3: In the activity bar, right click game.html to preview in the browser. 
+## Troubleshooting Issues:
+If the game is not displaying in preview, please take the following steps. 
+1. Confirm in the file game.html the JavaScript file is listed above the closing body tag <script src="game.js"></script>
+2. Review the game.js file to confirm the IDs are present and match their variables.
+3. Confirm min and max values are present and assigned values.
+4. Review the console to see if there are any additional error listed.
 
-<!-- launch server in terminal maybe with node  -->
+##Software Used
 
-<!-- If there are any issues using Live Server please debug with this [guide](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/) -->
-
-## Usage
-After Live Server is installed right click the file game.html to preview in the browser.
-<!-- update this to run with server terminal and go to local host -->
-<!-- change the title and add a description of the game  -->
-
-
-
+This game was built in Visual Studio Code
