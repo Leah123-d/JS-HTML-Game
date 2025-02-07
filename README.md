@@ -4,7 +4,6 @@ Welcome! In this game, you guess a number to match with the secret number. This 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Installation 
 1. Clone the repository 
