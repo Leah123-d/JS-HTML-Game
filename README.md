@@ -18,6 +18,6 @@ If the game is not displaying in preview, please take the following steps.
 3. Confirm min and max values are present and assigned values.
 4. Review the console to see if there are any additional error listed.
 
-##Software Used
+## Software Used
 
 This game was built in Visual Studio Code
